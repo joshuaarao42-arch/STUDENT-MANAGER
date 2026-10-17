@@ -28,7 +28,6 @@ teacher = "Teacher"
 rng_state = 12345
 RNG_MOD = 2147483647
 
-
 #Saving part nia siya
 def load_students():
     file = open(FILE_NAME, "a")
@@ -117,7 +116,6 @@ def get_status(s):
 def get_color(status):
     if status == "PASSED":
         return "seagreen"
-    elif status == "FAILED":
         return "firebrick"
     elif status == "CONDITIONAL":
         return "goldenrod"
