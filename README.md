@@ -424,8 +424,6 @@ First-year Bachelor of Science in Computer Science student with an interest in p
 
 ---
 
-## 📜 License
-
 This project is intended for educational purposes. You may use, modify, and extend the source code for learning and personal projects.
 
 If you plan to distribute this project publicly, consider adding a dedicated `LICENSE` file to specify the permissions and conditions for reuse.
