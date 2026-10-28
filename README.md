@@ -71,7 +71,7 @@ Student information is stored locally in a text file, allowing records to persis
 
 ![image alt](https://github.com/joshuaarao42-arch/STUDENT-MANAGER/blob/main/IMAGESS/Screenshot%202026-10-28%20174117.png?raw=true)
 ![image alt](https://github.com/joshuaarao42-arch/STUDENT-MANAGER/blob/main/IMAGESS/Screenshot%202026-10-28%20174211.png?raw=true)
-![image alt]()
+![image alt](https://github.com/joshuaarao42-arch/STUDENT-MANAGER/blob/main/IMAGESS/Screenshot%202026-10-28%20174328.png?raw=true)
 ---
 
 ## 🛠️ Built With
