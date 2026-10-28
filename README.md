@@ -70,7 +70,7 @@ Student information is stored locally in a text file, allowing records to persis
 | 🎨 Graphical Interface | Navigate the application using clickable buttons and visual student profiles. |
 
 ![image alt](https://github.com/joshuaarao42-arch/STUDENT-MANAGER/blob/main/IMAGESS/Screenshot%202026-10-28%20174117.png?raw=true)
-![image alt]()
+![image alt](https://github.com/joshuaarao42-arch/STUDENT-MANAGER/blob/main/IMAGESS/Screenshot%202026-10-28%20174211.png?raw=true)
 ![image alt]()
 ---
 
