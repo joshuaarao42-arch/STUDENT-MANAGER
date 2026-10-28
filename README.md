@@ -105,48 +105,6 @@ Student information is stored locally in a text file, allowing records to persis
 
 ---
 
-## 🚀 Getting Started
-
-Follow these steps to run the application on your local machine.
-
-### 1. Clone the Repository
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your actual GitHub username and repository name.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-### 2. Navigate to the Project Folder
-
-```bash
-cd YOUR_REPOSITORY
-```
-
-### 3. Run the Application
-
-If your Python source file is named `student_management.py`, execute:
-
-```bash
-python student_management.py
-```
-
-Alternatively, on systems where Python 3 uses the `python3` command:
-
-```bash
-python3 student_management.py
-```
-
-### 4. Enter the Teacher's Name
-
-When the application launches, a dialog box will ask for the teacher's name. Enter a name to personalize the welcome screen.
-
-### 5. Start Managing Student Records
-
-Use the main menu to register students, browse profiles, enter grades, search records, and perform other available operations.
-
----
-
 ## 🖥️ System Modules
 
 ### 🏠 1. Main Menu
