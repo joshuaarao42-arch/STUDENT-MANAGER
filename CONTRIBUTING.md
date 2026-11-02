@@ -1,6 +1,10 @@
-# Contributing to Student Management System
+# Contributing to STUDENT-MANAGER
 
-Thank you for helping improve this Python Turtle application for student records, academic grades, and General Weighted Average (GWA).
+Thank you for considering a contribution to this project. This guide explains how to prepare your environment, propose improvements, and submit changes for review.
+
+## Project overview
+
+Python Turtle student records and grading application.
 
 ## Getting started
 
@@ -9,40 +13,51 @@ git clone https://github.com/joshuaarao42-arch/STUDENT-MANAGER.git
 cd STUDENT-MANAGER
 ```
 
-Follow the README for the supported Python version, dependencies, and launch instructions.
+Follow the repository README and existing project configuration if setup commands or entry points have changed. Review the current code before introducing new tools or dependencies.
 
 ## What you can contribute
 
-- Student registration, search, profile display, updates, and deletion.
-- Grade entry and percentage-to-grade conversion.
-- GWA calculations, term summaries, and academic remarks.
-- Turtle interface usability and local data persistence.
-- Bug fixes and clearer documentation.
+- Improve student registration
+- Search
+- Profiles
+- Grade entry
+- Percentage conversion
+- GWA calculations
+- Academic summaries
+- And local persistence.
 
-## Project-specific guidelines
+Bug reports, documentation improvements, accessibility fixes, and reproducible tests are also welcome.
 
-Preserve the documented grading rules unless a change is discussed and agreed upon. Test normal values, boundary values, incomplete records, and malformed saved data. Check duplicate student IDs and accidental overwrites. Use fictional student records only; never commit real student names, IDs, grades, or school records.
+## Project-specific requirements
 
-## Development standards
+Preserve documented grading rules. Test boundary values, incomplete records, malformed saved data, duplicate IDs, and accidental overwrites. Use fictional student data only.
 
-Follow the existing Python naming and formatting conventions. Keep input, calculation, storage, and display logic understandable. Validate user input before saving or calculating. Avoid changing the grading scale or file format without documenting the impact.
+## Coding standards
 
-## Testing your changes
+- Follow the language, naming, formatting, and file-organization conventions already used in the repository.
+- Keep changes focused and code easy to understand.
+- Validate user input and handle errors clearly.
+- Avoid unrelated refactoring and unnecessary dependencies.
+- Never commit secrets, generated local data, or personal information.
 
-Run the application and test the affected student and grading workflows through the interface. For calculation changes, include sample inputs, step-by-step expected calculations, and expected outputs. Check that existing records still load correctly after storage-related changes.
+## Testing
+
+Run the application using the documented setup and test every workflow affected by your change. Include edge cases, not only the successful path. State what you tested and the result. Add screenshots for interface changes and sample inputs with expected outputs for logic changes.
 
 ## Branch and commit workflow
 
-Use a focused branch such as `feature/student-search`, `fix/gwa-calculation`, or `docs/usage-guide`. Use commit prefixes such as `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, and `test:`.
+Create a branch from the default branch. Use descriptive names such as `feature/short-description`, `fix/short-description`, or `docs/short-description`.
 
-## Opening a pull request
+Use clear commit prefixes: `feat:` for features, `fix:` for bug fixes, `docs:` for documentation, `style:` for formatting, `refactor:` for restructuring, and `test:` for tests.
 
-Describe the student or grading workflow affected, explain the change, and list the tests performed. Include screenshots for interface changes and example calculations for grading changes. Mention any changes to saved-data compatibility.
+## Pull request guidelines
 
-## Reporting issues
+Before submitting, ensure your changes are focused and tested. In the pull request, explain the problem, summarize the changes, link a related issue if available, list tests and results, and add screenshots or sample output when relevant. Mention breaking changes, new dependencies, and known limitations.
 
-Provide reproduction steps, expected and actual results, Python version, and relevant error messages. Use fictional sample records and remove personal information from screenshots or logs.
+## Reporting bugs and requesting features
+
+Search existing issues before opening a new one. For bugs, include reproduction steps, expected and actual behavior, environment details, and sanitized screenshots or logs. For feature requests, explain the use case and expected benefit. Do not publish credentials or private data.
 
 ## Code of conduct
 
-Be respectful and constructive. Review code fairly, welcome questions, and keep discussions focused on improving the project.
+Be respectful, patient, and constructive. Critique code and ideas rather than people. Harassment, discrimination, and abusive behavior are not acceptable.
