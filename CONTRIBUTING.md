@@ -1,30 +1,21 @@
 # Contributing to Student Management System
 
-Thank you for helping improve this Python Turtle-based student records and grading application.
+This Python Turtle application manages student records, academic grades, and General Weighted Average (GWA).
 
-## Set up the project
+## Clone
 ```bash
 git clone https://github.com/joshuaarao42-arch/STUDENT-MANAGER.git
 cd STUDENT-MANAGER
 ```
-Follow the run instructions in the README and use the Python version supported by the project.
+Follow the README for the supported Python version and launch instructions.
 
-## Contribution areas
-- Student registration, search, profile display, and record maintenance.
+## Project-specific contributions
+- Student registration, search, profiles, updates, and deletion.
 - Grade entry and percentage-to-grade conversion.
-- General Weighted Average (GWA) calculations.
-- Academic status and term summaries.
-- Turtle interface clarity, navigation, and error handling.
-- Safe and reliable local text-file persistence.
+- GWA calculations, term summaries, and academic remarks.
+- Turtle interface usability and local text-file persistence.
 
-## Correctness requirements
-- Preserve the existing grading rules unless a change is explicitly proposed and agreed upon.
-- Test calculations with normal values, boundary values, and incomplete records.
-- Avoid duplicate student records and accidental overwrites.
-- Handle missing or malformed local data without crashing.
-- Use fictional student data in screenshots, tests, and examples. Never commit real student IDs or grades.
+## Correctness and privacy
+Preserve the documented grading rules unless a change is discussed first. Test normal values, boundaries, incomplete records, and malformed saved data. Check duplicate IDs and accidental overwrites. Use fictional student records only; never commit real IDs, names, or grades.
 
-## Before submitting
-Run the application and test the affected student and grading workflows from the interface. Include sample inputs and expected results for calculation changes.
-
-Use branches such as `feature/student-search` or `fix/gwa-calculation`. Explain any change to grading behavior clearly in the pull request.
+Use branches such as `feature/student-search` or `fix/gwa-calculation`. For calculation changes, include sample inputs and expected results in the pull request.
